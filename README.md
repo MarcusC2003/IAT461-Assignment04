@@ -1,7 +1,7 @@
-# DeckForge — New-Player Onboarding (IAT 461 Assignment 4)
+# DeckForge — New-Player Onboarding (IAT 461 Final Assignment)
 
 - **Client_Proposal.md** — The client brief: business context, the three onboarding options considered, and the task definition.
-- **eda.ipynb** — Exploratory data analysis and machine learning report notebook (clustering, feature engineering, findings).
+- **eda.ipynb** — Exploratory data analysis and machine learning report notebook (clustering, feature engineering, findings, summary).
 - **Milestone2_Progress_Report.pdf** — Milestone 2 progress report writeup.
 - **DeckForge_Presentation.pdf** — Slide deck for the final presentation.
 - **presentation_video.mp4** — Recorded video of the presentation.

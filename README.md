@@ -21,14 +21,14 @@ DeckForge, a Pokémon TCG companion app, was losing new players in their first w
 - **Option A (Archetype Browser) was the only feasible option** — Options B and C were ruled out before any modelling because the required data (prices, power labels) doesn't exist in the dataset.
 - Clustering produced **6 named archetypes** for Pokémon cards:
 
-  | Archetype | Size | Key Traits |
-  |---|---|---|
-  | Basic Attackers | ~280 | Low HP, no ability, Basic stage |
-  | Heavy Hitters | ~59 | High HP + damage, Stage 2 |
-  | Ability Disruptors | ~88 | 100% ability rate, status-heavy |
-  | Evolved Mid-Range | ~156 | Stage 1/2, no ability, solid stats |
-  | Energy Engines | 7 | Attach extra energy, rare |
-  | Agile Strikers | ~34 | Low retreat, efficient attackers |
+  | Archetype          | Size | Key Traits                         |
+  | ------------------ | ---- | ---------------------------------- |
+  | Basic Attackers    | ~280 | Low HP, no ability, Basic stage    |
+  | Heavy Hitters      | ~59  | High HP + damage, Stage 2          |
+  | Ability Disruptors | ~88  | 100% ability rate, status-heavy    |
+  | Evolved Mid-Range  | ~156 | Stage 1/2, no ability, solid stats |
+  | Energy Engines     | 7    | Attach extra energy, rare          |
+  | Agile Strikers     | ~34  | Low retreat, efficient attackers   |
 
 - Trainer and Energy cards were grouped separately by subtype (e.g. Item, Stadium, Basic/Special Energy) since they have no attack/ability stats to cluster on.
 - Silhouette scores were low overall (~0.184), so clusters should be treated as **fuzzy, human-interpretable categories** rather than hard boundaries — sufficient for a browsing UI, not for precise classification.
@@ -50,6 +50,7 @@ streamlit run app.py
 
 - **Client_Proposal.md** — The client brief: business context, the three onboarding options considered, and the task definition.
 - **eda.ipynb** — Exploratory data analysis and machine learning report notebook (clustering, feature engineering, findings, summary).
+- **FitnessPlanet_Client_Evaluation** — Client Evaluation for FitnessPlanet.
 - **Milestone2_Progress_Report.pdf** — Milestone 2 progress report writeup.
 - **DeckForge_Presentation.pdf** — Slide deck for the final presentation.
 - **presentation_video.mp4** — Recorded video of the presentation.
